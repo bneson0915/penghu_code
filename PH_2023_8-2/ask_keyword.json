@@ -1,0 +1,140 @@
+{
+  "type": "bubble",
+  "hero": {
+    "type": "box",
+    "layout": "horizontal",
+    "spacing": "none",
+    "margin": "none",
+    "contents": [
+      {
+        "type": "image",
+        "url": "https://zh-tw.skyticket.com/guide/wp-content/uploads/2020/12/shutterstock_1086233933.jpg",
+        "align": "center",
+        "size": "full",
+        "margin": "none",
+        "aspectRatio": "20:15",
+        "aspectMode": "cover"
+      }
+    ]
+  },
+  "body": {
+    "type": "box",
+    "layout": "horizontal",
+    "contents": [
+      {
+        "type": "text",
+        "text": "請選擇搜尋的關鍵字",
+        "align": "center",
+        "size": "xl",
+        "margin": "none",
+        "color": "#4C0099",
+        "weight": "bold",
+        "style": "normal"
+      }
+    ],
+    "spacing": "none",
+    "margin": "none"
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "image",
+                "url": "https://th.bing.com/th/id/OIP.bz7UqgUAkIQZ_l5BA8WQ0AHaHa?pid=ImgDet&w=512&h=512&rs=1",
+                "aspectRatio": "1:1",
+                "aspectMode": "cover",
+                "size": "md"
+              },
+              {
+                "type": "button",
+                "action": {
+                  "type": "postback",
+                  "label": "景點",
+                  "data": "景點"
+                }
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "image",
+                "url": "https://th.bing.com/th/id/R.29ab9368e3f53b480c7b78688dbe898c?rik=HmdhNYH5lZ9qnA&riu=http%3a%2f%2fseafood.rezeki.id%2fwp-content%2fuploads%2f2017%2f09%2fmenu.png&ehk=EIakG1CytCXguy2Mr6lScAmwOrEKpCuOXuQbXWbM%2bFc%3d&risl=&pid=ImgRaw&r=0",
+                "aspectRatio": "1:1",
+                "aspectMode": "cover",
+                "size": "md"
+              },
+              {
+                "type": "button",
+                "action": {
+                  "type": "postback",
+                  "label": "餐廳",
+                  "data": "餐廳"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "image",
+                "url": "https://cdn2.iconfinder.com/data/icons/scuba-diving-water-sport/64/diving-scuba-diver-water-512.png",
+                "aspectRatio": "1:1",
+                "aspectMode": "cover",
+                "size": "md"
+              },
+              {
+                "type": "button",
+                "action": {
+                  "type": "postback",
+                  "label": "水上活動",
+                  "data": "水上活動"
+                }
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "image",
+                "url": "https://png.pngtree.com/png-vector/20190623/ourlarge/pngtree-hotel-icon-png-image_1511479.jpg",
+                "aspectRatio": "1:1",
+                "aspectMode": "cover",
+                "size": "md"
+              },
+              {
+                "type": "button",
+                "action": {
+                  "type": "postback",
+                  "label": "住宿",
+                  "data": "住宿"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

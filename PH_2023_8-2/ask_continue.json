@@ -1,0 +1,35 @@
+{
+  "type": "bubble",
+  "body": {
+    "type": "box",
+    "layout": "horizontal",
+    "contents": [
+      {
+        "type": "text",
+        "text": "是否繼續查詢",
+        "align": "center",
+        "size": "xl",
+        "margin": "none",
+        "color": "#4C0099",
+        "weight": "bold",
+        "style": "normal"
+      }
+    ],
+    "spacing": "none",
+    "margin": "none"
+  },
+  "footer": {
+    "type": "box",
+    "layout": "horizontal",
+    "contents": [
+      {
+        "type": "button",
+        "action": {
+          "type": "postback",
+          "label": "是，請繼續",
+          "data": "是，請繼續"
+        }
+      }
+    ]
+  }
+}
