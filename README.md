@@ -49,6 +49,6 @@ tunnels:
 ```
 > 6. ngrok 的指令要下 ```ngrok start --all```，就能透過 **[ngrok網址]/XXX.php** 進到 PHP 網頁並同時使用 Line Bot。
 > 7. imgur 禁止了 127.0.0.1 的訪問，所以要測試要用輸入 ```localhost``` 不能用 127.0.0.1。  
-  
+> 8. 請先安裝 requirement.txt 的套件 pip install -r requirements.txt
 **本專案投稿至 2022智慧物聯網產學研討會**   
 
