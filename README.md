@@ -29,11 +29,13 @@ penghu_code 2023
 ![https://github.com/ChuJacky0327/PengHu_Project/blob/main/image/%E6%99%AF%E9%BB%9E%E4%BA%BA%E6%BD%AE%E7%B5%90%E6%9E%9C%E5%9C%96.png](https://github.com/ChuJacky0327/PengHu_Project/blob/main/image/%E6%99%AF%E9%BB%9E%E4%BA%BA%E6%BD%AE%E7%B5%90%E6%9E%9C%E5%9C%96.png)  
 ***
 ## 備註 :  
-> 1. 執行的 python 程式在 **script 資料夾**裡。
-> 2. 請事先自行安裝好 **ngrok** 與 **xampp**。
-> 3. xampp 預安裝位置為 **C槽**，將此資料夾裡的 **PHP 檔案**放置於 **C:/xampp/htdocs** 裡，開啟 xampp 後，即可在網站輸入 ```http://localhost/XXX.php``` 開啟所需的 PHP 檔。
-> 4. 本研究有建構自己的本地資料庫 (MySQL) ，因此 PHP 檔所產生的地圖資訊，是去讀本地資料庫的數據。
-> 5. 會利用 ngrok 跳轉 PHP localhost 端的問題，而 ngrok 要同時開啟 port 8000 (給 Line Bot) 和 port 80 (給 PHP 動態網頁)，因此要設成多開 port， 到 ```/Users/XXX/.ngrok2/ngrok.yml```裡新增程式碼。
+> 1. 主程式是PH_Linebot.py。
+> 2. 預處理完的資料是penghu_orignal2.csv
+> 3. 機器學習檔案為ML.py,XGBOOST_predicted.py,XGBOOST_train.py
+> 4. 請事先自行安裝好 **ngrok** 與 **xampp**。
+> 5. xampp 預安裝位置為 **C槽**，將此資料夾裡的 **PHP 檔案**放置於 **C:/xampp/htdocs** 裡，開啟 xampp 後，即可在網站輸入 ```http://localhost/XXX.php``` 開啟所需的 PHP 檔。
+> 6. 本研究有建構自己的本地資料庫 (MySQL) ，因此 PHP 檔所產生的地圖資訊，是去讀本地資料庫的數據。
+> 7. 會利用 ngrok 跳轉 PHP localhost 端的問題，而 ngrok 要同時開啟 port 8000 (給 Line Bot) 和 port 80 (給 PHP 動態網頁)，因此要設成多開 port， 到 ```/Users/XXX/.ngrok2/ngrok.yml```裡新增程式碼。
 ```shell
 tunnels:
   line-bot:
@@ -50,7 +52,6 @@ tunnels:
 > 6. ngrok 的指令要下 ```ngrok start --all```，就能透過 **[ngrok網址]/XXX.php** 進到 PHP 網頁並同時使用 Line Bot。
 > 7. imgur 禁止了 127.0.0.1 的訪問，所以要測試要用輸入 ```localhost``` 不能用 127.0.0.1。  
 > 8. 請先安裝 requirement.txt 的套件 pip install -r requirements.txt
-
-
+>    
 **本專案投稿至 2022智慧物聯網產學研討會**   
 
